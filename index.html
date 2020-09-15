@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradipto Daw</title>
+    <link rel="stylesheet" type="text/css" href="webcss.css">
+    <script src="webJS.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Header 
+    <table width="100%" height="0" border="0" cellpadding="0" cellspacing="0" style="opacity: 1;">
+		<tr>
+			<td align="left">
+				<table id="top" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="background-color:transparent;">
+					<td width="100" align="center"><h3><a href=".about">About Me</a></h3></font></td>
+					 <td width="100" align="center"><a href=".about"></a>&nbspSchooling & Certificates</h3></font></td> 
+					<td width="100" align="center"><h3><a href=".projectsec"></a>Projects</h3></font></td>
+					<td width="100" align="center"><h3><a href=".about"></a>Contact Details</h3></font></td>
+					 <td width="96"><font color="white"><h3>Contact</h3></font></td> 
+				</table>
+			</td>
+		</tr>
+    </table>
+    
+    -->
+
+    <!-- FIRST PORTION -->
+    <div class="first-image">
+        <div class="first-text">
+            <h1 style="font-size:50px">I am Pradipto Daw</h1>
+            <p>Currently pursing Computer Science Engineering(B.Tech.)</p>
+            <p>Looking for Internships</p>
+        </div>
+            <div class="readMore"><a href="#about">
+                <h3>Read More</h3>
+                <span>&#8595;</span>
+            </a>
+            </div>
+        
+        
+    </div>
+
+    <!-- ABOUT ME SECTION-->
+    <div class="aboutMe">
+        <table id="about" style="top: 100%;" width="100%" border="0" cellspacing="10" cellpadding="0">
+            <tr>
+                <th></th>
+                <th>Resume</th>
+            </tr>
+            <tr>
+                <td><h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">About Me</h1>
+                    <p>I am Pradipto Daw. I am currently a 3rd Year student studying B.Tech in Computer Science Engineering(CSE) from Future Institute of Engineering and Management.
+                    I did my schooling from Nava Nalanda High School(Secondary and Higher Secondary both). From young age I wanted to pursue engineering and I tried my 
+                    best to achieve my dream. I participated in many project compitition held by our college. This participation helped me to increase my teamwork profile and also helped me to realise that
+                    anything can be achieved if everyone work as a team. In leisure time I do some photography, listen to music, and watch movies.
+                    </p>
+                </td>
+    
+                <td><iframe src="Pradipto Daw_FIEM_CSE_2021(NEW)1.pdf" style="width:600px; height:580px;" frameborder="4"></iframe></td>
+            </tr>
+    
+        </table>
+    </div>
+
+    <!-- Project Section -->
+    <div class="projectSec">
+        <p style="margin-left: 10%;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: xx-large;font-weight: 100;">Project Details</p>
+        <table id="proj" width="75%" margin="25" style="text-align: center;margin-left: auto;margin-right: auto; margin-top: auto;" cellspacing="10" cellpadding="10">
+            <tr style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                <th id="t1">Project Name</th>
+                <th id="t1">Project Description</th>
+                <th id="t1">Language</th>
+            </tr>
+            <hr>
+            <tr>
+                <td id="t1">Resale Car Price Prediction</td>
+                <td id="t1">Various datas like Brand Name, Kilometers Driven, Fuel Type, Owner Type, Engine, Price etc. were taken and trained and finally it predicted the price of the car if other details are given.</td>
+                <td id="t1">Python</td>
+            </tr>
+        </table>
+        <br><br><br><br><br><br><br><br><br><br>
+        <p style="text-align: center;font-size: large;"><i>“If something is important enough, even if the odds are stacked against you, you should still do it.”</i></p>
+        <p style="text-align: center;">-Elon Musk</p>
+    </div>
+
+    <!-- Images 
+    <div class="images">
+        <p>&nbsp</p>
+        <p style="margin-left: 10%;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: xx-large;font-weight: 100;">Some Mobile Photography</p>
+        <hr>
+        <div class="container">
+            <img src="1.jpg" class="img" height="100" width="300">
+            <div class="middle">
+                <div class="txt">ABCD</div>
+            </div>
+        </div>
+
+
+
+        <table width="100%" class="img">
+            <tr>
+            <td><img src="1.jpg" height="300" width="300"></td>
+            <td><img src="2.jpg" height="300" width="300"></td>
+            <td><img src="3.jpg" height="300" width="300"></td>
+        </tr>
+        </table>
+    </div>
+    -->
+
+    <!-- Contact Me -->
+    <div class="contact" id="contct">
+        <main>
+        <p style="margin-left: 10%;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: xx-large;font-weight: 100;">Contact Me</p> 
+        <form class="contactform" action="contact.php" method="post">
+            <input type="text" name="name" placeholder="Full Name" pattern="[A-Za-z- ]{2,}" required><br><br>
+            <input type="text" name="mail" placeholder="Your Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br><br>
+            <input type="text" name="Subject" placeholder="Subject" required><br><br>
+            <textarea name="message" placeholder="Message" cols="30" rows="10" required></textarea><br><br>
+            <button type="submit" name="submit" class="btn">Send Mail</button>
+        </form>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <div class="Footer">
+        <table width="100%" cellpadding="5">
+            <tr>
+                <td><img src="22.jpeg" style="border-radius: 60%;width: 100px; float:left;"><br><br><br>&nbsp&nbsp&nbsp<span style="font-size: medium; text-align: center;">Pradipto Daw</span><br>&nbsp&nbsp&nbsp<span style="font-size: small;">Kolkata,West Bengal,India</span></td>
+                <td></td>
+
+                <td><div class="Footer-text">
+                    <a href="https://www.instagram.com/am_pdaw/" target="_blank" style='font-size:20px'><i class="fa fa-instagram"></a></i>&nbsp;
+                    <a href="https://github.com/pradipto032" target="_blank" style='font-size:20px'><i class="fa fa-github"></a></i>&nbsp;
+                    <a href="https://www.linkedin.com/in/pradipto-daw-7a6b5b1a3/" target="_blank" style='font-size:20px'><i class="fa fa-linkedin-square"></a></i>&nbsp;
+                    <a href="https://www.hackerrank.com/pradipto99?hr_r=1" target="_blank" style='font-size:20px'><i class="fab fa-hackerrank"></i></a><br></td>
+                    <td>
+                    <button type="hire" name="hire" class="btn"><a href="#contct">Hire Me</a></button>
+                    </td>
+                </div>
+            </td>
+            </tr>
+        </table>
+        </div>
+
+</body>
+</html>
